@@ -1,0 +1,59 @@
+body {
+	font-family: 'Crimson Text', serif;
+	color: #141823;
+}
+h1 {
+	margin-bottom: 15px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3rem;
+	/*border-bottom: 2px solid #141823;*/
+}
+
+h5 {
+	margin-top: 5px;
+	border-bottom: 1px solid #141823;
+}
+
+p {
+	margin-bottom: 0.6rem;
+}
+
+#instructions {
+	background: #f5f5f5;
+	opacity: .6;
+	border-radius: 10px;
+}
+
+.spacer {
+	height: 30px;
+}
+
+/*_Sticky_Footer__________________________________________________________ */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	background-color: #6F90A2;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+}
+
+.footer p {
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-family: 'Libre Barcode 128 Text', cursive;
+}
