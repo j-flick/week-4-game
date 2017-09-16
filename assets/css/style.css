@@ -19,13 +19,29 @@ p {
 }
 
 #instructions {
-	background: #f5f5f5;
-	opacity: .6;
+	background: #bfcdd4;
 	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.crystals {
+	height: 150px;
+	/*margin-bottom: 15px;*/
+	margin-top: -15px;
+}
+
+.number {
+	font-family: 'Arvo', serif;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 .spacer {
 	height: 30px;
+}
+
+.main-container {
+	max-width: 540px;
 }
 
 /*_Sticky_Footer__________________________________________________________ */

@@ -10,14 +10,14 @@
   <!-- Additional styling -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Kaushan+Script|Crimson+Text" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Kaushan+Script|Crimson+Text|Arvo" rel="stylesheet"> 
 
 </head>
 
 <body>
 
   <!-- Main Container -->
-  <div class="container">
+  <div class="container main-container">
 
     <!-- Title -->
     <div class="row">
@@ -39,41 +39,39 @@
     </div>
     <!-- End Instructions Div -->
 
-    <!-- Random Number, Wins, Losses -->
+    <!-- Number to Match, Wins and Losses, User Total -->
     <div class="row">
-      <div class="col-8" id="random-number">
+      <div class="col-4">
         <!-- Random Number -->
+        <p>Number to match:<br /><span class="number" id="random-number"></span></p>
       </div>
-      <div class="col-4" id="wins-losses">
+      <div class="col-4 text-center" id="wins-losses">
         <!-- Wins and Losses -->
+        <p>Wins: <span id="wins"></span></p>
+        <p>Losses: <span id="losses"></span></p>
+      </div>
+      <div class="col-4 text-right">
+        <p>Your total is:<br /><span class="number" id="total-score"></span></p>
       </div>
     </div>
-    <!-- End Random Number, Wins, Losses -->
+    <!-- End Number to Match, Wins and Losses, User Total -->
 
     <!-- Crystal Images -->
     <div class="row">
-      <div class="col-3">
-        <img src="assets/images/crystal-1.png" id="crystal-1" class="img-fluid" />
+      <div class="col-3 text-center">
+        <img src="assets/images/crystal-1.png" id="crystal-1" class="img-fluid crystals" />
       </div>
-      <div class="col-3">
-        <img src="assets/images/crystal-2.png" id="crystal-2" class="img-fluid" />
+      <div class="col-3 text-center">
+        <img src="assets/images/crystal-2.png" id="crystal-2" class="img-fluid crystals" />
       </div>
-      <div class="col-3">
-        <img src="assets/images/crystal-3.png" id="crystal-3" class="img-fluid" />
+      <div class="col-3 text-center">
+        <img src="assets/images/crystal-3.png" id="crystal-3" class="img-fluid crystals" />
       </div>
-      <div class="col-3">
-        <img src="assets/images/crystal-4.png" id="crystal-4" class="img-fluid" />
+      <div class="col-3 text-center">
+        <img src="assets/images/crystal-4.png" id="crystal-4" class="img-fluid crystals" />
       </div>
     </div>
     <!-- End Crystal Images -->
-
-    <!-- Total Score -->
-    <div class="row">    
-      <div class="col-12">
-        <p>Your total score is: <span id="total-score"></span></p>
-      </div>
-    </div>
-    <!-- End Total Score -->
 
   </div> 
   <!-- End Main Container -->
